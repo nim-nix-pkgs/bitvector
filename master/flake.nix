@@ -11,7 +11,6 @@
   inputs.src-BitVector-master.ref   = "refs/heads/master";
   inputs.src-BitVector-master.owner = "MarcAzar";
   inputs.src-BitVector-master.repo  = "BitVector";
-  inputs.src-BitVector-master.dir   = "";
   inputs.src-BitVector-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
