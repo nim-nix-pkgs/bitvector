@@ -7,7 +7,7 @@
   "license": "MIT",
   "web": "https://marcazar.github.io/BitVector",
   "refs": [
-    "fatal: unable to access 'https://github.com/MarcAzar/BitVector/': Error in the HTTP2 framing layer",
+    "fatal: unable to access 'https://github.com/MarcAzar/BitVector/': Failed to connect to github.com port 443 after 130904 ms: Connection timed out",
     ""
   ],
   "heads": []
