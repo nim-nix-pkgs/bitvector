@@ -7,8 +7,37 @@
   "license": "MIT",
   "web": "https://marcazar.github.io/BitVector",
   "refs": [
-    "fatal: unable to access 'https://github.com/MarcAzar/BitVector/': Failed to connect to github.com port 443 after 130904 ms: Connection timed out",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "BitVector",
+      "version": "0.4.10",
+      "author": "Marc Azar",
+      "desc": "Bit Vector with base SomeOrdinal and little endian format. Supports `seq` based operations.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.19.2",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.19.2"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
